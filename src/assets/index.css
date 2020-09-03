@@ -70,8 +70,71 @@
 .mb .wrapper__col2__main__bottom__img {
   width: 50%;
   height: 100%;
-  background-image: url(https://images.unsplash.com/photo-1594669526260-e2c273228304?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+  background-image: url("https://images.unsplash.com/photo-1522205940279-d75807ebcd91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+.cm3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.cm3 div {
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px #777777;
+}
+.cm3 .wrapper__col3__main__box1 {
+  width: 230px;
+  height: 350px;
+  background-image: url("https://images.unsplash.com/photo-1503852460961-aa7ffdd3d64d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-position: center center;
+  margin-top: 70px;
+}
+.cm3 .wrapper__col3__main__box2 {
+  width: 230px;
+  height: 350px;
+
+  background-image: url("https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-position: center center;
+}
+.cm3 .wrapper__col3__main__box3 {
+  width: 230px;
+  height: 350px;
+
+  margin-top: 130px;
+  background-image: url("https://i.pinimg.com/474x/33/eb/9e/33eb9e20594350da5b076019dbdfccaf.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.mainDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainDesc .mainDesc__title {
+  margin-bottom: 20px;
+}
+.mainDesc .mainDesc__title__number {
+  font-size: 30px;
+  color: #888;
+  font-weight: 700px;
+  margin-right: 10px;
+  border-bottom: 2px solid #777777;
+}
+.mainDesc .mainDesc__title__txt {
+  font-size: 0px;
+  color: #333333;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.mainDesc .mainDesc__content {
+  font-size: 28px;
+  color: #777777;
+  margin-bottom: 5px;
 }
